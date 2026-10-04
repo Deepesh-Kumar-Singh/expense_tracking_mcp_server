@@ -1661,6 +1661,7 @@ dependencies = [
     { name = "aiosqlite" },
     { name = "asyncpg" },
     { name = "fastmcp" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -1668,6 +1669,7 @@ requires-dist = [
     { name = "aiosqlite", specifier = ">=0.22.1" },
     { name = "asyncpg", specifier = ">=0.31.0" },
     { name = "fastmcp", specifier = ">=4.0.10" },
+    { name = "python-dotenv", specifier = ">=1.2.3" },
 ]
 
 [[package]]

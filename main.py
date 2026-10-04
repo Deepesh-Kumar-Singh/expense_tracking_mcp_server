@@ -2,7 +2,9 @@ from fastmcp import FastMCP
 import os
 import asyncpg
 import json
+from dotenv import load_dotenv
 
+load_dotenv()
 
 # ============================================================
 # PostgreSQL Configuration
